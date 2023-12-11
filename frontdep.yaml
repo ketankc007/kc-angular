@@ -26,11 +26,10 @@ kind: Service
 metadata:
   name: real-estate-back-svc
 spec:
-  type: nodePort
   selector:
     app: front-end
   ports:
     - port: 80
       targetPort: 4200
-      nodePort: 30007
+  type: LoadBalancer
   
