@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const baseUrl = 'a44f00390a08741f195042b45529dafb-1963344670.eu-west-3.elb.amazonaws.com/api/tutorials';
+const baseUrl = 'http://ab2eca160f39d42a9a1da7b7495c903b-2055363058.eu-west-3.elb.amazonaws.com//api/tutorials';
 
 @Injectable({
   providedIn: 'root'
